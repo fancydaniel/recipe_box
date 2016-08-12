@@ -23,7 +23,7 @@
   box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
 }
 
-$red: #DB6161
+$red: #DB6161;
 
 body {
   background: #EBEEF3;
@@ -62,11 +62,12 @@ body {
   background: white;
   border-radius: 5px;
   margin-bottom: 40px;
-  @include box-shadow: 
+  @include box-shadow;
   .image_wrapper {
     max-width: 100%;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
+    }
   }
 
 img {
@@ -80,15 +81,14 @@ img {
   }
 }
 
-  h2 {
-    padding: 15px 5%;
-    margin: 0;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.5;
-    a {
-      color: $red;
-    }
+h2 {
+  padding: 15px 5%;
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  a {
+    color: $red;
   }
 }
 
