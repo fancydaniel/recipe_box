@@ -58,20 +58,7 @@ body {
   }
 }
 
-.recipe {
-  background: white;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  @include box-shadow;
-  .image_wrapper {
-    max-width: 100%;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    }
-  }
-
 img {
-  width: 100%;
   -webkit-transition: all .3x ease-out;
   -moz-transition: all .3x ease-out;
   -o-transition: all .3x ease-out;
@@ -80,6 +67,20 @@ img {
     transform: scale(1.075);
   }
 }
+
+.recipe {
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  @include box-shadow;
+  .image_wrapper {
+    max-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    }
+  }
+
+
 
 h2 {
   padding: 15px 5%;
@@ -105,7 +106,7 @@ h2 {
 }
 
 .recipe_image {
-  max-width: 100%;
+  max-width: 400px;
   border-radius: 5px;
   @include box-shadow;
 }
