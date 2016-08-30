@@ -17,7 +17,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'paperclip', '~> 5.0'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 
-gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
+gem 'bcrypt-ruby', '3.1.5'
 
 
 gem 'sdoc', '~> 0.4.0', group: :doc
